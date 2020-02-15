@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: brown;
+}
+
+.banner{
+    display: flex;
+    background: wheat;
+    align-items: flex-start;
+}
+
+h1 {
+    background: red;
+    
+    font-size: 2.5em;
+    padding-left: 5%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+nav{
+    background: yellowgreen;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    padding: 16px;
+    background: blue;
+    color: white;    
+}
+
+/* iPhone 6/7/8 */
+@media (max-width: 375px) {
+
+    .banner{
+        display: block;
+    }
+
+
+    h1 {
+        font-size: 2em;
+        
+        padding-left: 12px;
+    }
+
+    nav{
+        padding-top: 8px;
+        padding-bottom: 8px; 
+    }
+
+    li{
+        text-align: center;
+        float: none;
+        list-style-type: none;
+        
+        padding: 8px;
+        background: blue;
+        color: white; 
+    }
+}
