@@ -60,6 +60,13 @@ main{
     font-size: 2em;
 }
 
+#podcasts{
+    background: aqua;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+}
+
 #ksfVids{
     background: aqua;
     margin: 10px;
@@ -77,6 +84,31 @@ main{
 
 .video{
     width: 49%;
+}
+
+/* Tutorials */
+
+.tutorial{
+    background: aqua;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+}
+
+/* Maps */
+
+#topPicks{
+    background: aqua;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.mapReview{
+    background: aqua;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
 }
 
 
@@ -129,10 +161,41 @@ main{
         font-size: 1em;
     }
 
+    #podcasts{
+        background: aqua;
+        padding: 10px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
     .video{
         width: 100%;
         height: 200px;
     }
 
+    /* Tutorials */
     
+    .tutorial{
+        background: aqua;
+        padding: 10px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    /* Maps */
+
+    #topPicks{
+        background: aqua;
+        padding: 10px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    .mapReview{
+        background: aqua;
+        padding: 10px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
 }
