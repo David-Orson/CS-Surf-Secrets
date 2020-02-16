@@ -7,15 +7,17 @@ body {
     background: brown;
 }
 
+/* NAV BAR */
+
 .banner{
     display: flex;
     background: wheat;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
-h1 {
+#logo {
     background: red;
-    
+    margin-left: 15vw;
     font-size: 2.5em;
     padding-left: 5%;
     padding-top: 16px;
@@ -28,6 +30,7 @@ nav{
 }
 
 li{
+    font-size: 2em;
     list-style-type: none;
     float: left;
     padding: 16px;
@@ -35,17 +38,61 @@ li{
     color: white;    
 }
 
+li:hover{
+    background: gold;
+}
+
+/* Main Content */
+
+main{
+    background: hotpink;
+    height: auto;
+    max-width: 70vw;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#news{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+}
+
+#ksfVids{
+    background: aqua;
+    margin: 10px;
+}
+
+#warbagVids{
+    background: aqua;
+    margin: 10px;
+}
+
+#orsonVids{
+    background: aqua;
+    margin: 10px;
+}
+
+.video{
+    width: 49%;
+}
+
+
 /* iPhone 6/7/8 */
 @media (max-width: 375px) {
+
+    /* NAV BAR */
 
     .banner{
         display: block;
     }
 
 
-    h1 {
+    #logo {
         font-size: 2em;
-        
+        margin-left: 0;
         padding-left: 12px;
     }
 
@@ -58,9 +105,34 @@ li{
         text-align: center;
         float: none;
         list-style-type: none;
-        
+        font-size: 1em;
         padding: 8px;
         background: blue;
         color: white; 
     }
+
+    /* Main Content */
+
+    main{
+        background: hotpink;
+        height: auto;
+        max-width: 95vw;
+        margin: auto;
+        padding-bottom: 20px;
+        
+    }
+
+    #news{
+        background-color: aqua;
+        padding: 10px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    .video{
+        width: 100%;
+        height: 200px;
+    }
+
+    
 }
