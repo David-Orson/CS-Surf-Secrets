@@ -21,47 +21,55 @@
     </div>
     <main>
         <div class="tutorial">
+            <h3>Advanced: Superior Strafing</h3>
+            <br>
             <h1>Bounce</h1>
             <br>
-            <p>In this tutorial, we are going to cover an intermediate strafing technique called 'Bounce'. Bounce is a concept that is only seemingly perfectible by a robot and many people would improve their surf by working on the level of Bounce in their strafes. Many of the fastest 'unit' surfers and B-Hoppers demonstrate a clear understanding of the concept and have implemented it into their muscle memory. We will cover a basic explanation of the 'Bounce' concept, and you can try the exercises to implement more Bounce into your strafes!
-            <br><br>
-            What is 'Bounce'?
-            <br><br>    
-            Bounce refers to the movement of the mouse when you change direction in a strafe. So, if you are strafing to the right and want to strafe to the left shortly after; Bounce refers to the transition period between those 2 strafes. There are 2 variables that decide the 'level' of Bounce in a strafe: Acceleration (and deceleration) and Pause.
-            <br><br><br>    
-            Acceleration
-            <br><br>    
-            Acceleration is the rate of change in movement over time, which includes a negative acceleration (like slowing down a movement).
-            When we decide to strafe in the opposite direction our mouse is currently moving, we have to decelerate the mouse until it is at a complete stop, then accelerate the mouse in a new direction.
+            <h5>By Orson (AKA AngleCS)</h5>
+            
             <br>
-            -- (This is when isolating away vertical mouse movements. If the mouse moves vertically when horizontal speed is at 0, the mouse will not be at a complete stop. Many B-hoppers have vertical movement in their Bounce). -- 
-            <br><br><br>    
-            Pause
+            <p>In this tutorial, we are going to cover an advanced strafing technique called 'Bounce'.<br> Bounce is a concept that is only seemingly perfectible by a robot and many people would improve their surf by working on the level of Bounce in their strafes.<br> Many of the fastest 'unit' surfers and B-Hoppers demonstrate a clear understanding of the concept and have implemented it into their muscle memory.<br><br> We will cover a basic explanation of the 'Bounce' concept, and you can try the exercises to implement more Bounce into your strafes!</p>
+            <br><br>
+            <h5>What is 'Bounce'?</h5>
+            <br>    
+            <p>Bounce refers to the movement of the mouse when you change direction in a strafe.<br> So, if you are strafing to the right and want to strafe to the left shortly after; Bounce refers to the transition period between those 2 strafes.<br> There are 2 variables that decide the 'level' of Bounce in a strafe: Acceleration (and deceleration) and Pause.</p>
             <br><br>    
-            This, quite simply, refers to the amount of time the mouse is in a static state on the horizontal axis.
-            <br><br><br>    
-            If a strafe transition has a low amount of acceleration and a long pause, it is said to have a low level of Bounce.<br>
+            <h5>Acceleration</h5>
+            <br>    
+            <p>Acceleration is the rate of change in movement over time, which includes a negative acceleration (like slowing down a movement).<br>
+            When we decide to strafe in the opposite direction our mouse is currently moving, we have to decelerate the mouse until it is at a complete stop, then accelerate the mouse in a new direction.
+            <br><br>
+            -- (This is when isolating away vertical mouse movements. If the mouse moves vertically when horizontal speed is at 0, the mouse will not be at a complete stop. Many B-hoppers have vertical movement in their Bounce). -- </p>
+            <br><br>    
+            <h5>Pause</h5>
+            <br>    
+            <p>This, quite simply, refers to the amount of time the mouse is in a static state on the horizontal axis.</p>
+            <br><br>
+            <h5>How this effects Bounce</h5>
+            <br>   
+            <p>If a strafe transition has a low amount of acceleration and a long pause, it is said to have a low level of Bounce.<br>
             If a strafe transition has a high amount of acceleration and a short pause, it is said to have a high level of Bounce.
             <br><br>    
             Sometimes we may be in circumstances which mean we have to have sub-optimal rates of acceleration, which will mean the quality of the Bounce will be largely determined by the length of the pause.
             <br><br>    
             When a strafe transition has a low level of bounce, the strafes will look 'Swooshy' as opposed to a robotic, 'clicky' like appearance.
             <br><br>    
-            Ideally, our strafe transitions would have no discernible rate of Acceleration and no Pause, just an instant change of direction of mouse movement, synchronised with the strafing key. However, human muscular-skeletal ability and real world physics prevents us from achieving this. Even the greatest strafers have a short pause to allow them to change key before they move the mouse in the opposite direction, allowing for less error in synchronisation.
+            Ideally, our strafe transitions would have no discernible rate of Acceleration and no Pause, just an instant change of direction of mouse movement, synchronised with the strafing key.<br> However, human muscular-skeletal ability and real world physics prevents us from achieving this.<br> Even the greatest strafers have a short pause to allow them to change key before they move the mouse in the opposite direction, allowing for less error in synchronisation.</p>
             <br><br>    
-            Why is Bounce important?
-            <br><br>    
-            In Source-Mod Movement game modes, you gain speed while rotating at a certain, optimal, rate. We need to maximise the amount of time that we spend rotating at this rate and not at a sub-optimal rate (during deceleration, our rate will be sub-optimal).
+            <h5>Why is Bounce important?</h5>
+            <br>    
+            <p>In Source-Mod Movement game modes, you gain speed while rotating at a certain, optimal, rate.<br> We need to maximise the amount of time that we spend rotating at this rate and not at a sub-optimal rate <br>(during deceleration, our rate will be sub-optimal).
             <br><br>
             The less time spent rotating, like the time spent paused, the less units we will gain.<br>
             The less time spent at a sub-optimal rate of rotation, the less units we will gain.<br><br>
-            So, it is important to maximise our Bounce to maximise our unit gain from our strafes.
+            So, it is important to maximise our Bounce to maximise our unit gain from our strafes.</p>
             <br><br>    
-            How to practice?
-            <br><br>    
-            Most people can improve their Bounce simply by surfing and consciously thinking about the act of Bouncing. However, I have found it helps to Isolate the concept and practice moving the mouse horizontally, back and forth, while not surfing.
-            I find it even more useful to have a visual aid, like to markers, that I can turn my view back and forth between, using the cross hair to guide my rotation. <br>
+            <h5>How to practice?</h5>
+            <br>    
+            Most people can improve their Bounce simply by surfing and consciously thinking about the act of Bouncing.<br> However, I have found it helps to Isolate the concept and practice moving the mouse horizontally, back and forth, while not surfing.<br>
+            I find it even more useful to have a visual aid, like to markers, that I can turn my view back and forth between, using the cross hair to guide my rotation. <br><br>
             If you spend 10-30 minutes a day just practicing your bounce as an intermediate, you will certainly have a significant improvement in the amount of units you gain from all strafes, especially strafes from a starting platform!</p>
+            <br>
             
         </div>
     </main>

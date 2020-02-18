@@ -1,11 +1,26 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     background: #394053;
+}
+
+h1{
+    color: #E2713D;
+    text-decoration: underline #0F1319;
+}
+
+h3{
+    text-decoration: underline #0F1319;
+}
+
+#logo{
+    color: cyan;
+    border: none;
+    text-decoration: none;
 }
 
 /* NAV BAR */
@@ -43,11 +58,35 @@ li{
     background: #E2713D;
     color: white;
     border: 1px solid white;
-    border-radius: 2px;    
+    border-radius: 2px;   
 }
 
 li:hover{
     background: orange;
+}
+
+li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+li a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.readMore{
+    color: #E2713D;
 }
 
 /* Main Content */
@@ -61,59 +100,66 @@ main{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 2px;
+    border: 1px solid #0F1319;
 }
 
 #news{
     background-color: black;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
+    border: 1px solid white;
 }
 
 #podcasts{
     background: black;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
     font-size: 1em;
     color: white;
     margin-bottom: 32px;
     border-radius: 4px;
+    text-align: center;
+    border: 1px solid white;
 }
 
 #ksfVids{
     background: black;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
     color: white;
     margin-bottom: 32px;
     border-radius: 4px;
     display: inline-block;
     margin-left: 4vw;
+    border: 1px solid white;
 }
 
 #warbagVids{
     background: black;
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
     color: white;
     margin-bottom: 32px;
     border-radius: 4px;
     display: inline-block;
     margin-left: 4vw;
+    border: 1px solid white;
 }
 
 #orsonVids{
     background: black;
     margin: 10px;
     color: white;
-    padding: 10px;
+    padding: 30px;
     margin-bottom: 32px;
     border-radius: 4px;
     display: inline-block;
     margin-left: 4vw;
+    border: 1px solid white;
 }
 
 
@@ -121,101 +167,111 @@ main{
 .video{
     width: 30vw;
     height: 20vw;
-    padding: 5px;
+    padding: 0px;
     margin-bottom: 24px;
-    border-radius: 12px;
+    border-radius: 6px;
     clear: both;
+    border: 1px solid #232323;
 }
 
 /* Tutorials */
 
 .tutorial{
-    background: black;
-    padding: 10px;
+    background-color: black;
+    padding: 30px;
     margin: 10px;
+    margin-bottom: 32px;
     font-size: 1em;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
+    border: 1px solid white;
 }
 
 /* Maps */
 
 #topPicks{
-    background: black;
-    padding: 10px;
+    background-color: black;
+    padding: 30px;
     margin: 10px;
+    margin-bottom: 32px;
     font-size: 1em;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
+    border: 1px solid white;
+    text-align: center;
 }
 
 .mapReview{
-    background: black;
-    padding: 10px;
+    background-color: black;
+    padding: 30px;
     margin: 10px;
+    margin-bottom: 32px;
     font-size: 1em;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
+    border: 1px solid white;
 }
 
 /* News */
 
 .news{
-    background: black;
-    padding: 10px;
+    background-color: black;
+    padding: 30px;
     margin: 10px;
+    margin-bottom: 32px;
     font-size: 1em;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
-
+    border: 1px solid white;
 }
 
 /* About Us */
 
 #staff{
-    background: black;
-    padding: 10px;
+    background-color: black;
+    padding: 30px;
     margin: 10px;
+    margin-bottom: 32px;
     font-size: 1em;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
+    border: 1px solid white;
 }
 
 #contributors{
-    background: black;
-    padding: 10px;
+    background-color: black;
+    padding: 30px;
     margin: 10px;
+    margin-bottom: 32px;
     font-size: 1em;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
+    border: 1px solid white;
 }
 
 #supporters{
-    background: black;
-    padding: 10px;
+    background-color: black;
+    padding: 30px;
     margin: 10px;
+    margin-bottom: 32px;
     font-size: 1em;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
+    border: 1px solid white;
 }
 
 /* Contact Us */
 
 .form1{
-    background: black;
-    padding: 10px;
+    background-color: black;
+    padding: 30px;
     margin: 10px;
+    margin-bottom: 32px;
     font-size: 1em;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
+    border: 1px solid white;
+    text-align: center;
 }
 
 /* iPhone 6/7/8 */
@@ -266,6 +322,42 @@ main{
         margin: auto;
         padding-bottom: 20px;
         margin-top: 10px;
+    }
+
+    #ksfVids{
+        background: black;
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        margin-bottom: 32px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-left: 4vw;
+        border: 1px solid white;
+    }
+    
+    #warbagVids{
+        background: black;
+        margin: 10px;
+        padding: 10px;
+        color: white;
+        margin-bottom: 32px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-left: 4vw;
+        border: 1px solid white;
+    }
+    
+    #orsonVids{
+        background: black;
+        margin: 10px;
+        color: white;
+        padding: 10px;
+        margin-bottom: 32px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-left: 4vw;
+        border: 1px solid white;
     }
 
     #news{
@@ -377,6 +469,11 @@ main{
     color: white;
     margin-bottom: 32px;
     border-radius: 4px;
+    text-align: center;
+}
+
+#feedback{
+    width: 100%;
 }
 
 }
