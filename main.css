@@ -5,29 +5,37 @@
 }
 
 body {
-    background: #394053;
+    background: #111213;
 }
 
 h1{
     color: #E2713D;
-    text-decoration: underline #0F1319;
+    
 }
 
 h3{
-    text-decoration: underline #0F1319;
+    
+}
+
+#ss{
+    width: 5%;
+    margin-left: 15vw;
+    padding-left: 2%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    min-width: 100px;
 }
 
 #logo{
-    color: cyan;
-    border: none;
-    text-decoration: none;
+
 }
 
 /* NAV BAR */
 
 .banner{
 
-    background: #394053;
+    background: rgb(50, 50, 50);
     align-items: flex-end;
 }
 
@@ -43,7 +51,7 @@ h3{
 }
 
 nav{
-    background: #0F1319;
+    background: rgb(15, 15, 15);
 }
 
 ul{
@@ -56,33 +64,36 @@ li{
     display: inline-block;
     padding: 8px;
     background: #E2713D;
-    color: white;
-    border: 1px solid white;
-    border-radius: 2px;   
+    color: #0F1319;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 2px;
+    font-weight: 600;   
 }
 
 li:hover{
     background: orange;
+    color: #0F1319;
 }
 
 li a:link {
     text-decoration: none;
-    color: white;
+    color: #0F1319;    
 }
 
 li a:visited {
     text-decoration: none;
-    color: white;
+    color: #0F1319;
 }
 
 li a:hover {
     text-decoration: none;
-    color: white;
+    color: #0F1319;
 }
 
 li a:active {
     text-decoration: none;
-    color: white;
+    background-color: #0F1319;
+    color: #E2713D;
 }
 
 .readMore{
@@ -104,18 +115,18 @@ main{
 }
 
 #news{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #podcasts{
-    background: black;
+    background: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     font-size: 1em;
@@ -123,11 +134,11 @@ main{
     margin-bottom: 32px;
     border-radius: 4px;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #ksfVids{
-    background: black;
+    background: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     color: white;
@@ -135,11 +146,11 @@ main{
     border-radius: 4px;
     display: inline-block;
     margin-left: 4vw;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #warbagVids{
-    background: black;
+    background: rgb(50, 50, 50);
     margin: 10px;
     padding: 30px;
     color: white;
@@ -147,11 +158,11 @@ main{
     border-radius: 4px;
     display: inline-block;
     margin-left: 4vw;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #orsonVids{
-    background: black;
+    background: rgb(50, 50, 50);
     margin: 10px;
     color: white;
     padding: 30px;
@@ -159,7 +170,7 @@ main{
     border-radius: 4px;
     display: inline-block;
     margin-left: 4vw;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 
@@ -177,105 +188,109 @@ main{
 /* Tutorials */
 
 .tutorial{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 /* Maps */
 
 #topPicks{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
     text-align: center;
 }
 
 .mapReview{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 /* News */
 
 .news{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 /* About Us */
 
 #staff{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #contributors{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #supporters{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 /* Contact Us */
 
 .form1{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
     font-size: 1em;
     color: white;
     border-radius: 4px;
-    border: 1px solid white;
+    border: 1px solid black;
     text-align: center;
 }
 
 /* iPhone 6/7/8 */
 @media (max-width: 900px) {
+
+    body{
+        width: 100vw;
+    }
 
     /* NAV BAR */
 
@@ -283,6 +298,16 @@ main{
         display: block;
     }
 
+    #ss{
+        
+        margin-left: 15vw;
+        padding-left: 2%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        max-width: 100px;
+        min-width: none;
+    }
 
     #logo {
         font-size: 2em;
@@ -313,6 +338,31 @@ main{
         margin-top: 5px;
     }
 
+    li:hover{
+        background: orange;
+        color: white;
+    }
+    
+    li a:link {
+        text-decoration: none;
+        color: white;    
+    }
+    
+    li a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    
+    li a:hover {
+        text-decoration: none;
+        color: white;
+    }
+    
+    li a:active {
+        text-decoration: none;
+        color: white;
+    }
+
     /* Main Content */
 
     main{
@@ -325,7 +375,7 @@ main{
     }
 
     #ksfVids{
-        background: black;
+        background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
         color: white;
@@ -333,11 +383,11 @@ main{
         border-radius: 4px;
         display: inline-block;
         margin-left: 4vw;
-        border: 1px solid white;
+        border: 1px solid black;
     }
     
     #warbagVids{
-        background: black;
+        background: rgb(50, 50, 50);
         margin: 10px;
         padding: 10px;
         color: white;
@@ -345,11 +395,11 @@ main{
         border-radius: 4px;
         display: inline-block;
         margin-left: 4vw;
-        border: 1px solid white;
+        border: 1px solid black;
     }
     
     #orsonVids{
-        background: black;
+        background: rgb(50, 50, 50);
         margin: 10px;
         color: white;
         padding: 10px;
@@ -357,11 +407,11 @@ main{
         border-radius: 4px;
         display: inline-block;
         margin-left: 4vw;
-        border: 1px solid white;
+        border: 1px solid black;
     }
 
     #news{
-        background-color: black;
+        background-color: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
         font-size: 1em;
@@ -370,7 +420,7 @@ main{
     }
 
     #podcasts{
-        background: black;
+        background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
         font-size: 1em;
@@ -389,7 +439,7 @@ main{
     /* Tutorials */
     
     .tutorial{
-        background: black;
+        background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
         font-size: 1em;
@@ -400,7 +450,7 @@ main{
     /* Maps */
 
     #topPicks{
-        background: black;
+        background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
         font-size: 1em;
@@ -409,7 +459,7 @@ main{
     }
 
     .mapReview{
-        background: black;
+        background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
         font-size: 1em;
@@ -418,7 +468,7 @@ main{
     }
 
     .news{
-        background: black;
+        background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
         font-size: 1em;
@@ -430,7 +480,7 @@ main{
     /* About Us */
 
 #staff{
-    background: black;
+    background: rgb(50, 50, 50);
     padding: 10px;
     margin: 10px;
     font-size: 1em;
@@ -440,7 +490,7 @@ main{
 }
 
 #contributors{
-    background: black;
+    background: rgb(50, 50, 50);
     padding: 10px;
     margin: 10px;
     font-size: 1em;
@@ -450,7 +500,7 @@ main{
 }
 
 #supporters{
-    background: black;
+    background: rgb(50, 50, 50);
     padding: 10px;
     margin: 10px;
     font-size: 1em;
@@ -462,7 +512,7 @@ main{
 /* Contact Us */
 
 .form1{
-    background: black;
+    background: rgb(50, 50, 50);
     padding: 10px;
     margin: 10px;
     font-size: 1em;
