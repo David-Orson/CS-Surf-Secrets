@@ -13,10 +13,6 @@ h1{
     
 }
 
-h3{
-    
-}
-
 #ss{
     width: 5%;
     margin-left: 15vw;
@@ -98,6 +94,7 @@ a:hover{
 .readMore{
     color: #E2713D;
     background-color: rgb(50, 50, 50);
+    text-decoration: underline;
 }
 
 .readMore:hover{
@@ -105,7 +102,49 @@ a:hover{
     color: orange;
 }
 
+.leftReadMore{
+    color: #E2713D;
+    background-color: #232323;
+    text-decoration: underline;
+}
 
+.leftReadMore:hover{
+    background: #232323;
+    color: orange;
+}
+
+/* Left Content */
+
+#leftContent{
+    width: 13vw;
+    margin-top: 10px;
+    margin-left: 0.5vw;
+    float: left;
+    
+}
+
+#newContent{
+    background: #232323;
+    border: 1px solid #0F1319;
+    max-width: 100%;
+    padding: 0.4vw;
+    text-align: center;
+    font-size: 0.6em;
+    color: white;
+}
+
+.contentPiece{
+    text-align: center;
+    padding: 8px;
+    border: 1px solid grey;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+#nC{
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
 
 /* Main Content */
 
@@ -121,25 +160,33 @@ main{
     border: 1px solid #0F1319;
 }
 
-#news{
-    background-color: rgb(50, 50, 50);
-    padding: 30px;
-    padding-top: 20px;
-    margin: 10px;
-    margin-bottom: 32px;
-    font-size: 0.7em;
-    color: white;
-    border-radius: 4px;
-    border: 1px solid black;
-}
+/* flex */
 
 .flexBox{
     display: flex;
     justify-content: space-between;
 }
 
+.podFlexBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vidFlexBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.newFlexBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .newsCard{
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 4px;
     margin: 10px;
     margin-top: 0px;
@@ -148,9 +195,46 @@ main{
     text-align: center;
 }
 
+.pod{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    min-width: 220px;
+    padding: 4px;
+    white-space: nowrap;
+    margin: 6px;
+    margin-top: 0px;
+    background: #232323;    
+}
+
+.vidCard{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 16px;
+    text-align: center;
+    max-width: 350px;
+}
+
+/* flex-end */
+
+#news{
+    background-color: rgb(50, 50, 50);
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-bottom: 32px;
+    font-size: 0.7em;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
 #podcasts{
     background: rgb(50, 50, 50);
     padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     margin: 10px;
     font-size: 0.7em;
     color: white;
@@ -160,54 +244,35 @@ main{
     border: 1px solid black;
 }
 
-#ksfVids{
-    background: rgb(50, 50, 50);
-    padding: 30px;
-    margin: 10px;
-    color: white;
-    margin-bottom: 32px;
-    border-radius: 4px;
-    display: inline-block;
-    margin-left: 4vw;
-    border: 1px solid black;
+.podIcon{
+    width: 30px;
+    float: left;
+}
+
+.podTitle{
+
+}
+
+.podTxt{
     font-size: 0.7em;
 }
 
-#warbagVids{
+#vids{
     background: rgb(50, 50, 50);
-    margin: 10px;
     padding: 30px;
+    padding-top: 15px;
+    margin: 10px;
     color: white;
-    margin-bottom: 32px;
     border-radius: 4px;
-    display: inline-block;
-    margin-left: 4vw;
     border: 1px solid black;
     font-size: 0.7em;
 }
-
-#orsonVids{
-    background: rgb(50, 50, 50);
-    margin: 10px;
-    color: white;
-    padding: 30px;
-    margin-bottom: 32px;
-    border-radius: 4px;
-    display: inline-block;
-    margin-left: 4vw;
-    border: 1px solid black;
-    font-size: 0.7em;
-}
-
-
 
 .video{
-    width: 30vw;
-    height: 20vw;
     padding: 0px;
-    margin-bottom: 24px;
     border-radius: 6px;
     clear: both;
+    margin-bottom: 10px;
     border: 1px solid #232323;
 }
 
@@ -381,7 +446,55 @@ main{
         background:#232323;
     }
 
+    .leftReadMore{
+        color: #E2713D;
+        background-color: rgb(50, 50, 50);
+        text-decoration: underline;
+    }
+    
+    .leftReadMore:hover{
+        background: rgb(50, 50, 50);
+        color: orange;
+    }
 
+    /* Left Content */
+
+    #leftContent{
+        max-width: 95vw;
+        width: 95vw;
+        margin: auto;
+        margin-top: 10px;
+        
+        float: none;
+        min-height: 0vh;        
+    }
+    
+    #newContent{
+        background: rgb(50, 50, 50);
+        border: 1px solid black;
+        max-width: 100%;
+        padding: 0.4vw;
+        border-radius: 4px;
+        font-size: 0.7em;
+    }
+
+    .leftToCenter{
+        background: #232323;
+        padding: 10px
+    }
+
+    .contentPiece{
+        text-align: center;
+        padding: 8px;
+        border: 1px solid grey;
+        margin: 2px;
+        border-radius: 4px;
+    }
+
+    #nC{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
 
     /* Main Content */
@@ -395,6 +508,55 @@ main{
         margin-top: 10px;
     }
 
+    /* Flex */
+
+    .flexBox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .podFlexBox{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .vidFlexBox{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .newFlexBox{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .newsCard{
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .pod{
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        min-width: 220px;
+        padding: 4px;
+        white-space: nowrap;
+        margin: 6px;
+        margin-top: 0px;
+        background: #232323;    
+    }
+
+    /* Flex End */
+
     #news{
         background-color: rgb(50, 50, 50);
         padding: 10px;
@@ -405,22 +567,6 @@ main{
         border-radius: 4px;
         border: 1px solid black;
     }
-
-    .flexBox{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    
-    .newsCard{
-        border: 2px solid lightgray;
-        border-radius: 4px;
-        margin: 10px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding: 16px;
-        text-align: center;
-    }
     
     #podcasts{
         background: rgb(50, 50, 50);
@@ -428,57 +574,24 @@ main{
         margin: 10px;
         font-size: 0.7em;
         color: white;
-        margin-bottom: 32px;
         border-radius: 4px;
         text-align: center;
         border: 1px solid black;
     }
 
-    #ksfVids{
+    #vids{
         background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
-        color: white;
-        margin-bottom: 32px;
-        border-radius: 4px;
-        display: inline-block;
-        margin-left: 4vw;
-        border: 1px solid black;
         font-size: 0.7em;
-    }
-    
-    #warbagVids{
-        background: rgb(50, 50, 50);
-        margin: 10px;
-        padding: 10px;
         color: white;
-        margin-bottom: 32px;
         border-radius: 4px;
-        display: inline-block;
-        margin-left: 4vw;
+        text-align: center;
         border: 1px solid black;
-        font-size: 0.7em;
-    }
-    
-    #orsonVids{
-        background: rgb(50, 50, 50);
-        margin: 10px;
-        color: white;
-        padding: 10px;
-        margin-bottom: 32px;
-        border-radius: 4px;
-        display: inline-block;
-        margin-left: 4vw;
-        border: 1px solid black;
-        font-size: 0.7em;
     }
 
     .video{
         width: 100%;
-        max-width: 400px;
-        height: 200px;
-        padding: 0;
-        border-radius: 16px;
     }
 
     /* Tutorials */
