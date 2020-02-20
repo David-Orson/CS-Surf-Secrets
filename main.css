@@ -27,6 +27,13 @@ h3{
     min-width: 100px;
 }
 
+#discord{
+    width: 3%;
+    float: right;
+    margin-right: 15vw;
+    min-width: 50px;
+}
+
 #logo{
 
 }
@@ -62,43 +69,43 @@ li{
     font-size: 1em;
     list-style-type: none;
     display: inline-block;
-    padding: 8px;
-    background: #E2713D;
-    color: #0F1319;
     border: 1px solid rgb(100, 100, 100);
     border-radius: 2px;
-    font-weight: 600;   
+    font-weight: 600;
+    text-decoration: none;   
 }
 
-li:hover{
+a{
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    background: #E2713D;
+    color: #0F1319;
+}
+
+a:hover{
     background: orange;
     color: #0F1319;
 }
 
-li a:link {
-    text-decoration: none;
-    color: #0F1319;    
-}
-
-li a:visited {
-    text-decoration: none;
-    color: #0F1319;
-}
-
-li a:hover {
-    text-decoration: none;
-    color: #0F1319;
-}
-
-li a:active {
-    text-decoration: none;
-    background-color: #0F1319;
+.active{
+    background: #0F1319;
     color: #E2713D;
 }
+
+
 
 .readMore{
     color: #E2713D;
+    background-color: rgb(50, 50, 50);
 }
+
+.readMore:hover{
+    background: rgb(50, 50, 50);
+    color: orange;
+}
+
+
 
 /* Main Content */
 
@@ -117,19 +124,35 @@ main{
 #news{
     background-color: rgb(50, 50, 50);
     padding: 30px;
+    padding-top: 20px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
+}
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsCard{
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 16px;
+    text-align: center;
 }
 
 #podcasts{
     background: rgb(50, 50, 50);
     padding: 30px;
     margin: 10px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     margin-bottom: 32px;
     border-radius: 4px;
@@ -147,6 +170,7 @@ main{
     display: inline-block;
     margin-left: 4vw;
     border: 1px solid black;
+    font-size: 0.7em;
 }
 
 #warbagVids{
@@ -159,6 +183,7 @@ main{
     display: inline-block;
     margin-left: 4vw;
     border: 1px solid black;
+    font-size: 0.7em;
 }
 
 #orsonVids{
@@ -171,6 +196,7 @@ main{
     display: inline-block;
     margin-left: 4vw;
     border: 1px solid black;
+    font-size: 0.7em;
 }
 
 
@@ -192,7 +218,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -205,7 +231,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -217,7 +243,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -230,7 +256,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -243,7 +269,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -254,7 +280,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -265,7 +291,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -278,7 +304,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -299,14 +325,20 @@ main{
     }
 
     #ss{
-        
-        margin-left: 15vw;
+        margin-left: 5vw;
         padding-left: 2%;
         padding-top: 8px;
         padding-bottom: 8px;
         padding-right: 8px;
         max-width: 100px;
         min-width: none;
+    }
+
+    #discord{
+        width: 3%;
+        float: right;
+        margin-right: 5vw;
+        min-width: 50px;
     }
 
     #logo {
@@ -329,8 +361,8 @@ main{
         text-align: center;
         float: none;
         list-style-type: none;
-        font-size: 1em;
-        padding: 8px;
+        font-size: 0.7em;;
+        padding: 0px;
         background: #0F1319;
         color: white;
         border: 2px solid #E2713D;
@@ -338,30 +370,19 @@ main{
         margin-top: 5px;
     }
 
-    li:hover{
-        background: orange;
+    a{
+        display: inline-block;
+        padding: 8px;
+        background: #0F1319;
         color: white;
     }
-    
-    li a:link {
-        text-decoration: none;
-        color: white;    
+
+    .active{
+        background:#232323;
     }
-    
-    li a:visited {
-        text-decoration: none;
-        color: white;
-    }
-    
-    li a:hover {
-        text-decoration: none;
-        color: white;
-    }
-    
-    li a:active {
-        text-decoration: none;
-        color: white;
-    }
+
+
+
 
     /* Main Content */
 
@@ -374,6 +395,45 @@ main{
         margin-top: 10px;
     }
 
+    #news{
+        background-color: rgb(50, 50, 50);
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 32px;
+        font-size: 0.7em;
+        color: white;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+
+    .flexBox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .newsCard{
+        border: 2px solid lightgray;
+        border-radius: 4px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 16px;
+        text-align: center;
+    }
+    
+    #podcasts{
+        background: rgb(50, 50, 50);
+        padding: 10px;
+        margin: 10px;
+        font-size: 0.7em;
+        color: white;
+        margin-bottom: 32px;
+        border-radius: 4px;
+        text-align: center;
+        border: 1px solid black;
+    }
+
     #ksfVids{
         background: rgb(50, 50, 50);
         padding: 10px;
@@ -384,6 +444,7 @@ main{
         display: inline-block;
         margin-left: 4vw;
         border: 1px solid black;
+        font-size: 0.7em;
     }
     
     #warbagVids{
@@ -396,6 +457,7 @@ main{
         display: inline-block;
         margin-left: 4vw;
         border: 1px solid black;
+        font-size: 0.7em;
     }
     
     #orsonVids{
@@ -408,24 +470,7 @@ main{
         display: inline-block;
         margin-left: 4vw;
         border: 1px solid black;
-    }
-
-    #news{
-        background-color: rgb(50, 50, 50);
-        padding: 10px;
-        margin: 10px;
-        font-size: 1em;
-        color: white;
-        margin-bottom: 24px;
-    }
-
-    #podcasts{
-        background: rgb(50, 50, 50);
-        padding: 10px;
-        margin: 10px;
-        font-size: 1em;
-        color: white;
-        margin-bottom: 24px;
+        font-size: 0.7em;
     }
 
     .video{
@@ -442,7 +487,7 @@ main{
         background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
-        font-size: 1em;
+        font-size: 0.7em;
         color: white;
         margin-bottom: 24px;
     }
@@ -453,7 +498,7 @@ main{
         background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
-        font-size: 1em;
+        font-size: 0.7em;
         color: white;
         margin-bottom: 24px;
     }
@@ -462,7 +507,7 @@ main{
         background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
-        font-size: 1em;
+        font-size: 0.7em;
         color: white;
         margin-bottom: 24px;
     }
@@ -471,7 +516,7 @@ main{
         background: rgb(50, 50, 50);
         padding: 10px;
         margin: 10px;
-        font-size: 1em;
+        font-size: 0.7em;
         color: white;
         margin-bottom: 32px;
     
@@ -479,51 +524,51 @@ main{
 
     /* About Us */
 
-#staff{
-    background: rgb(50, 50, 50);
-    padding: 10px;
-    margin: 10px;
-    font-size: 1em;
-    color: white;
-    margin-bottom: 32px;
-    border-radius: 4px;
-}
+    #staff{
+        background: rgb(50, 50, 50);
+        padding: 10px;
+        margin: 10px;
+        font-size: 0.7em;
+        color: white;
+        margin-bottom: 32px;
+        border-radius: 4px;
+    }
 
-#contributors{
-    background: rgb(50, 50, 50);
-    padding: 10px;
-    margin: 10px;
-    font-size: 1em;
-    color: white;
-    margin-bottom: 32px;
-    border-radius: 4px;
-}
+    #contributors{
+        background: rgb(50, 50, 50);
+        padding: 10px;
+        margin: 10px;
+        font-size: 0.7em;
+        color: white;
+        margin-bottom: 32px;
+        border-radius: 4px;
+    }
 
-#supporters{
-    background: rgb(50, 50, 50);
-    padding: 10px;
-    margin: 10px;
-    font-size: 1em;
-    color: white;
-    margin-bottom: 32px;
-    border-radius: 4px;
-}
+    #supporters{
+        background: rgb(50, 50, 50);
+        padding: 10px;
+        margin: 10px;
+        font-size: 0.7em;
+        color: white;
+        margin-bottom: 32px;
+        border-radius: 4px;
+    }
 
 /* Contact Us */
 
-.form1{
-    background: rgb(50, 50, 50);
-    padding: 10px;
-    margin: 10px;
-    font-size: 1em;
-    color: white;
-    margin-bottom: 32px;
-    border-radius: 4px;
-    text-align: center;
-}
+    .form1{
+        background: rgb(50, 50, 50);
+        padding: 10px;
+        margin: 10px;
+        font-size: 0.7em;
+        color: white;
+        margin-bottom: 32px;
+        border-radius: 4px;
+        text-align: center;
+    }
 
-#feedback{
-    width: 100%;
-}
+    #feedback{
+        width: 100%;
+    }
 
 }
