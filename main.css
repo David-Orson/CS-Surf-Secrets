@@ -168,7 +168,8 @@ a:hover{
 .serverButtonFlexBox{
     display: flex;
     justify-content: left;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin-bottom: 2px; 
 }
 
 .serverMini{
