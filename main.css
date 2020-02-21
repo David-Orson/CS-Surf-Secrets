@@ -464,7 +464,7 @@ main{
     padding: 30px;
     margin: 10px;
     margin-bottom: 32px;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: white;
     border-radius: 4px;
     border: 1px solid black;
@@ -694,6 +694,11 @@ main{
         margin-bottom: 10px;
     }
 
+    /* Left/Right Display Removal */
+
+    .leftContentClass{
+        display: none;
+    }
 
     /* Main Content */
 
