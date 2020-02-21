@@ -30,14 +30,16 @@ h1{
     min-width: 50px;
 }
 
-#logo{
+#hamburger{
+    display: none;
+}
 
+#logo{
 }
 
 /* NAV BAR */
 
 .banner{
-
     background: rgb(50, 50, 50);
     align-items: flex-end;
 }
@@ -522,6 +524,7 @@ main{
 
     body{
         width: 100vw;
+        
     }
 
     /* NAV BAR */
@@ -553,17 +556,60 @@ main{
         padding-left: 12px;
     }
 
+    #hamburger{
+        display: inline-block;
+        width: 10%;
+        background: #232323;
+        border: white 1px solid;
+        border-radius: 4px;
+        margin: 4px;
+        margin-right: 10vw;
+        cursor: pointer;
+    }
+
+    #hamburger:hover{
+        
+    }
+
+    .hamButtonBox{
+        
+        display: flex;
+        justify-content: right;
+    }
+
+
+
     nav{
-        padding-top: 2px;
-        padding-bottom: 8px; 
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-right: 2px solid rgb(10, 10, 10);
+        border-left: 2px solid rgb(10, 10, 10);
+        border-top: 2px solid rgb(10, 10, 10);
+        border-radius: 2px;
     }
 
     ul{
+        transition: height ease 1s;
         margin-left: 0;
+
+        height: 0;
+        overflow: hidden;
+        
+        border: 1px solid rgb(10, 10, 10);
+        box-sizing: border-box;
+        border-radius: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .ul__collapse{
+        height: 400px;        
     }
 
     li{
-        display: block;
+        display: inline-block;
         text-align: center;
         float: none;
         list-style-type: none;
@@ -574,6 +620,11 @@ main{
         border: 2px solid #E2713D;
         border-radius: 6px;
         margin-top: 5px;
+        width: 60vw;
+        max-height: 30px;
+        clear: both;
+        float: left;
+        
     }
 
     a{
@@ -653,6 +704,7 @@ main{
         margin: auto;
         padding-bottom: 20px;
         margin-top: 10px;
+        transition: all ease 1s;
     }
 
     /* Flex */
