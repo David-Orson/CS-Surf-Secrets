@@ -119,8 +119,7 @@ a:hover{
     width: 13vw;
     margin-top: 10px;
     margin-left: 0.5vw;
-    float: left;
-    
+    float: left;    
 }
 
 #newContent{
@@ -139,11 +138,140 @@ a:hover{
     border: 1px solid grey;
     margin: 2px;
     border-radius: 3px;
+    max-width: 500px;
 }
 
 #nC{
     margin-top: 4px;
     margin-bottom: 10px;
+}
+
+/* Right Content */
+
+#rightContent{
+    width: 13vw;
+    margin-top: 10px;
+    margin-right: 0.5vw;
+    float: right;
+}
+
+#otherSites{
+    background: #232323;
+    border: 1px solid #0F1319;
+    max-width: 100%;
+    padding: 0.4vw;
+    text-align: center;
+    font-size: 0.6em;
+    color: white;
+}
+
+.serverButtonFlexBox{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap; 
+}
+
+.serverMini{
+    text-align: center;
+    padding: 4px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    max-width: 79%;
+    background: rgb(20, 20, 20);
+    float: left;
+    white-space: nowrap;
+}
+
+.serverButton{
+    text-align: center;
+    padding: 4px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    max-width: 500px;
+    background: rgb(20, 20, 20);
+    float: right;
+    margin-left: 2px;
+}
+
+#pS{
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.serverIcon{
+    width: 13%;
+    float: left;
+    min-width: 20px;
+    
+}
+
+.discordIcon{
+    margin: -3px;
+    margin-top: -5px;
+    margin-bottom: -6px;
+    max-width: 30px;
+}
+
+.serverTitle{
+    text-align: left;
+    display: inline;
+    float: left;    
+    margin-left: 4px;
+    font-size: 100%;
+}
+
+.shortServerText{
+    display: none;
+}
+
+@media (max-width: 1810px){
+    .shortServerText{
+        display: inline-block;
+    }
+
+    .fullServerText{
+        display: none;
+    }
+
+    .serverTitle{
+        
+    }
+}
+
+@media (max-width: 1900px){
+    .serverMini{
+        max-width: 65%;
+        
+        
+    }
+}
+
+@media (max-width: 1140px){
+    
+    .serverButtonFlexBox{
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        width: 100%;
+
+    }
+    
+    .serverMini{
+        
+        float: none;
+        width: 50%;
+    }
+
+    .serverIcon{
+        display: none;
+    }
+
+    .serverButtonFlexBox{
+        justify-content: left;
+    }
+
 }
 
 /* Main Content */
@@ -182,7 +310,19 @@ main{
 .newFlexBox{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
+}
+
+.serverFlexBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+@media (max-width: 1140px){
+    .serverFlexBox{
+        justify-content: left;
+    }
 }
 
 .newsCard{
@@ -455,6 +595,12 @@ main{
     .leftReadMore:hover{
         background: rgb(50, 50, 50);
         color: orange;
+    }
+
+    /* Right Content */
+
+    #rightContent{
+        display: none;
     }
 
     /* Left Content */
