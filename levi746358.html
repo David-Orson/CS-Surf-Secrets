@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surf Secrets: About Us</title>
+    <title>Surf Secrets: Levi</title>
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="icon.png">
 </head>
@@ -16,14 +16,15 @@
                 <img id="hamburger" src="hamburger.png" alt="">                
             </div>
             <ul>
-            <li><a href="http://www.cssurfsecrets.com">Home</a></li>
-            <li><a href="news">News</a></li>
-            <li><a href="servers">Servers</a></li>
-            <li><a href="tutorials">Tutorials</a></li>
-            <li><a href="maps">Map Reviews</a></li>
-            <li class="active"><a class="active" href="about">About Us</a></li>
-            <li><a href="contact">Contact Us</a></li>
-            <li><a href="support">Support Us</a></li>
+                <li><a href="http://www.cssurfsecrets.com">Home</a></li>
+                <li><a href="news">News</a></li>
+                <li><a href="servers">Servers</a></li>
+                <li><a href="tutorials">Tutorials</a></li>
+                <li><a href="maps">Map Reviews</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="contact">Contact Us</a></li>
+                <li><a href="support">Support Us</a></li>
+                <li class="active"><a class="active" href="profile">Profile</a>
         </ul>
     </nav>
 </div>
@@ -162,31 +163,166 @@
             <!-- Main Content -->
 
     <main>
-        <div id="staff">
-            <h1>Staff</h1>
-            <br>
-            <h3>Orson</h3>
-            <br>
-            <p>Hi, I'm the owner of Surf Secrets, I love surf and want to do what I can to contribute.<br> I'm also beginning to study Web Development, so the website followed.<br><br> You can check out my Youtube<a class="readMore" href="https://www.youtube.com/channel/UCDCVt3dL7iMPTiXjxaVM_iQ">Here</a><br>Follow my Twitch <a class="readMore" href="https://www.twitch.tv/anglecs/">Here</a> (I haven't streamed in a while though, sorry)<br>Join the Discord <a class="readMore" href="https://discord.gg/Vdj6Bm5">Here</a><br>Or follow me on Twitter<a class="readMore" href="https://twitter.com/AngleCS1">Here</a></p>
-            <br>
-            <h3>dFault</h3>
-            <br>
-            <p>Hey, I'm the Head Admin of Surf Secrets, I'm not the best surfer but I love to surf and I love the community behind it.<br> I also administrate the discord server which you can join with the link above. I don't upload videos or stream but you can follow me on:<br><a class="readMore" href="https://twitter.com/Brandonlchapman">Twitter</a><a class="readMore" href="https://www.instagram.com/brandonlchapman/?hl=en">Instagram</a></p>
-            <br>
-        </div>
-        <div id="contributors">
-            <h1>Contributors</h1>
-            <br>
-            <p>We have no contributers other than staff currently, BE THE FIRST!</p>
-            <br>
-        </div>
-        <div id="supporters">
-            <h1>Supporters</h1>
-            <br>
-            <p>We have no Supporters, Support us HERE.</p>
-            <br>
+        <div id="news">
+            <div class="infoPicAndBadges">
+                <div class="profilePicDiv">
+                    <img src="levi.jpg" id="profilePic" alt="">
+                </div>
+                <div class="infoAndBadges">
+                    <div>
+                        <h1 id="userName">Levi</h1>           
+                        <h5>Member Since:</h5>
+                        <p>Feb 28th 2020</p>
+                        <br>
+                    </div>
+                    <div>
+                        <h3>Badges</h3>
+                        <img class="badge" src="diamond.png" alt="">
+                        <img class="badge" src="diamond.png" alt="">
+                        <img class="badge" src="diamond.png" alt="">
+                        <img class="badge" src="diamond.png" alt="">
+                        <img class="badge" src="diamond.png" alt="">
+                        <img class="badge" src="diamond.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="serverRanks">
+                        <table class="rankTable">
+                            <tr>
+                                <th>CSS KSF Rank</th>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <th>Heaven Rank</th>
+                                <td>532</td>
+                            </tr>
+                            <tr>
+                                <th>KSFGO</th>
+                                <td>294</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="profileMain">
+                <div class="rankContainer">                    
+                    <div class="overallAndCompetitive">                        
+                        <table class="overallRank">
+                            <tr>
+                                <th>Overall Rank</th>
+                                <td>Master</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>Competitive Hours</th>
+                                <td>1462.11</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="todoContainer">
+                        <h2>To Do List</h2>
+                        <form id="todo-form" action="">
+                            <select name="record" id="record">
+                                <option value="WR">WR</option>
+                                <option value="top10">top10</option>
+                                <option value="G1">G1</option>
+                                <option value="G2">G2</option>
+                                <option value="G3">G3</option>
+                                <option value="G4">G4</option>
+                                <option value="G5">G5</option>
+                                <option value="G6">G6</option>
+                                <option value="PR">PR</option>
+                                <option value="oneshot">Oneshot</option>
+                                <option value="completion">Completion</option>
+                            </select>                    
+                            <input type="text" name="course" placeholder="Map">
+                            <select name="zone" id="zone">
+                                <option value="map">Map</option>
+                                <option value="stage">Stage</option>
+                                <option value="Bonus">Bonus</option>
+                            </select>
+                            <select name="host" id="host">
+                                <option value="CSS-KSF">CSS KSF</option>
+                                <option value="Heaven">Heaven</option>
+                                <option value="KSFGO">KSFGO</option>
+                            </select>
+                            <button>Add To Do Item</button>
+                        </form>
+                        <div id="todo-list">
+                            <ul>
+                                <li>Record
+                                <li>Map
+                                <li>Zone
+                                <li>Server
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="goalContainer">
+                        <h2>Goals</h2>
+                        <div>
+                            <form id="goal-form" action="">
+                                <input type="text" name="record" placeholder="Goal">                 
+                                <input type="text" name="course" placeholder="Map">
+                                <select name="zone" id="zone">
+                                    <option value="map">Map</option>
+                                    <option value="stage">Stage</option>
+                                    <option value="Bonus">Bonus</option>
+                                </select>
+                                <select name="host" id="host">
+                                    <option value="css-ksf">CSS KSF</option>
+                                    <option value="heaven">Heaven</option>
+                                    <option value="ksfgo">KSFGO</option>
+                                </select>
+                                <button>Add To Do Item</button>
+                            </form>
+                        </div>
+                        <div id="goal-list">
+                            <ul>
+                                <li>Goal
+                                <li>Map
+                                <li>Zone
+                                <li>Server
+                            </ul>
+                        </div>
+                        <br>
+                        <p>If item doesnt remove on click, refresh page</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+        apiKey: "AIzaSyCvV7AIXRKrArzeJ04f2ZE042fOj-YoGJY",
+        authDomain: "cssurfsecrets.firebaseapp.com",
+        databaseURL: "https://cssurfsecrets.firebaseio.com",
+        projectId: "cssurfsecrets",
+        storageBucket: "cssurfsecrets.appspot.com",
+        messagingSenderId: "30533000417",
+        appId: "1:30533000417:web:c5fe2c182338048fdeaba0",
+        measurementId: "G-ZTYNVBX4XK"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+
+        const db = firebase.firestore();
+        
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

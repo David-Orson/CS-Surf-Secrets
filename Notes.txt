@@ -99,27 +99,21 @@ Re-section most pages
 Images OVERHAUL
 Title Change
 
-Discord Button
-Maybe Logo Buttonize
-Server Icons
-
 Tutorial Under Over + Leverage
 
 Podcast 1 and 2
 
 BUGS
-
+hamburger float
 Embedded Videos
 
-Pre Launch TODO
+Strafe Calculator
+Server Purchase pooling
 
-Edit Staff Page - Links      ------------------
-Contact Us                   ------------------     
-Support Us                   ------------------
-Partnered Links              ------------------
-Discord logo to all pages    ------------------
-Button Discord Logo          ------------------
-Servers                      ------------------          
+
+
+
+        
 
 
 
